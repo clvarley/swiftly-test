@@ -18,6 +18,6 @@ Class Home Extends AbstractController
      */
     public function index() : Response
     {
-        // TODO:
+        return $this->output( "home" );
     }
 }

@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Test Project</title>
-    </head>
-    <body>
-        <h1>It's Working!</h1>
-    </body>
-</html>
+<?= $this->renderPartial( APP_VIEW . "partials/header" ); ?>
+
+<main role="main">
+    <h1>Kodimite</h1>
+
+    <section class="">
+        <h2>Music</h2>
+
+    </section>
+
+    <section class="">
+        <h2>Films</h2>
+
+    </section>
+
+    <section class="">
+        <h2>TV</h2>
+
+    </section>
+</main>
+
+<?= $this->renderPartial( APP_VIEW . "partials/footer" ); ?>
