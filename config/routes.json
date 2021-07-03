@@ -3,5 +3,10 @@
         "path":     "/",
         "methods":  ["GET"],
         "handler":  "Home::index"
+    },
+    "search": {
+        "path":     "/search",
+        "methods":  ["GET"],
+        "handler":  "Search::index"
     }
 }
