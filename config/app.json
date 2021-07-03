@@ -1,0 +1,19 @@
+{
+    "core": {
+        "encoding": "UTF-8",
+        "environment": "dev",
+        "strict" : true,
+        "warnings": true
+    },
+    "database": {
+        "adapter": "mysql",
+        "host": "mysql",
+        "name": "database",
+        "username": "username",
+        "password": "secret"
+    },
+    "cache": {
+        "root": "data/cache/html",
+        "lifetime": 3600
+    }
+}

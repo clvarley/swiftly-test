@@ -1,0 +1,12 @@
+# Stop secrets from leaking
+*.sql
+*.log
+*.env
+
+# Cache files & db exports
+/data/cache
+/data/sql
+
+# Composer
+/vendor
+/composer.lock
